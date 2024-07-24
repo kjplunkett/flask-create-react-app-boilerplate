@@ -1,6 +1,6 @@
 # Flask Create React App Boilerplate
 
-Simple starter kit for local web development with a Flask backend + React frontend
+Starter kit for local web development with a Flask backend + React frontend
 
 ## Development
 
@@ -57,10 +57,10 @@ npm install
 Start the frontend process
 
 ```shell
-# TODO enter command
+npm run start
 ```
 
-Start the backend process
+In a new shell, start the backend process
 ````shell
 # TODO enter command
 ````
@@ -75,7 +75,7 @@ Load the app in your browser
 
 Run frontend tests
 ```shell
-# TODO enter command
+npm run test
 ```
 
 Run backend tests
