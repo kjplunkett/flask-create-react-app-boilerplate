@@ -52,23 +52,30 @@ Install node dependencies
 npm install
 ```
 
+## Configuration
+
+Copy the example environment variables file
+```shell
+cp .env.example .env.local
+```
+
 ## Usage
 
-Start the frontend process
+Start the frontend 
 
 ```shell
 npm run start
 ```
 
-In a new shell, start the backend process
+In a new shell, start the backend
 ````shell
-# TODO enter command
+flask run
 ````
 
-Load the app in your browser
+Load the frontend in your browser
 
 ```
-# TODO enter URL
+http://localhost:3000
 ```
 
 ## Testing
@@ -85,8 +92,9 @@ Run backend tests
 
 ## TODO
 
-- [ ] Finish boilerplate setup
+- [x] Finish boilerplate setup
 - [ ] Add tests
+- [ ] Linting, Formatting
 - [ ] Finish README
 - [ ] Containerize
 

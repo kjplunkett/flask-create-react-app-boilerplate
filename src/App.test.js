@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Initially renders the number 0', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  
+  const randomNumberText = screen.getByText(/Random number: 0/i);
+  
+  expect(randomNumberText).toBeInTheDocument();
 });
