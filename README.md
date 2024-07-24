@@ -68,6 +68,7 @@ npm run start
 ```
 
 In a new shell, start the backend
+
 ````shell
 flask run
 ````
@@ -87,7 +88,7 @@ npm run test
 
 Run backend tests
 ```shell
-# TODO enter command
+pytest
 ```
 
 ## TODO
@@ -97,4 +98,3 @@ Run backend tests
 - [ ] Linting, Formatting
 - [ ] Finish README
 - [ ] Containerize
-
